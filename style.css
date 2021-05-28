@@ -42,8 +42,8 @@ body {
 }
 
 main .ventana {
-  width: 600px;
-  height: 350px;
+  width: 70%;
+  height: 30%;
   background: white;
   position: absolute;
   top: 50%;
