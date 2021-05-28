@@ -9,7 +9,13 @@ for (let i = 0; i < allVentanas.length; i++) {
     allVentanas[i].addEventListener('click', function () {
         if (this.onclick == onclick) {
             console.log('click 1');
-            this.className = 'd-none'
+            // this.className = 'd-none'
+            this.style.opacity = '0'
+            this.style.transition = '.7s ease-in'
+            this.style.marginTop = '100%'
+            // this.style.display = 'none'
+
+
         }
         // if(allVentanas[1].onclick == onclick){
         //     console.log('click 2');

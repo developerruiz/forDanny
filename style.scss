@@ -44,11 +44,16 @@ img {
 body {
     background: #000 url(fondo.jpg) no-repeat center center;
     background-size: cover;
+    overflow: hidden;
+
 }
 
 main {
+    overflow: hidden;
 
     .ventana {
+    overflow: hidden;
+
         width: 70%;
         height: 30%;
         background: rgb(255, 255, 255);
